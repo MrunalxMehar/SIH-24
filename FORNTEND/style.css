@@ -1,0 +1,177 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Dark gray for text */
+    background-color: #F5F5F5; /* Light gray */
+}
+
+/* Navigation Bar */
+
+nav {
+    background: linear-gradient(90deg, #000000, #434343); /* Black to Dark Gray Gradient */
+    padding: 1em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Deep shadow for floating effect */
+}
+
+nav h1 {
+    color: #FFFFFF; /* Bright White */
+    font-size: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px; /* Increased letter spacing for a modern look */
+    text-transform: uppercase; /* Uppercase for boldness */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Deep shadow for bold effect */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #AED6F1; /* Soft Light Blue */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px; /* Full rounded corners for pill-shaped buttons */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 2px solid transparent; /* For hover effect */
+}
+
+nav a:hover {
+    background-color: #2980B9; /* Vibrant Blue on hover */
+    color: #ffffff; /* White text on hover */
+    border: 2px solid #AED6F1; /* Soft blue border on hover */
+}
+
+
+/* Dashboard */
+
+.dashboard {
+    width: 85%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* White */
+    border: 2px solid #34A853; /* Google Green */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Recent Scans Section */
+
+.recent-scans {
+    margin-bottom: 20px;
+}
+
+.recent-scans h2 {
+    color: #34A853; /* Google Green */
+    margin-bottom: 10px;
+}
+
+/* Table Styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #DDDDDD; /* Light gray */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FBBC05; /* Google Yellow */
+    color: #fff;
+}
+
+td {
+    background-color: #F5F5F5; /* Light gray */
+    color: #333;
+}
+
+/* Modal Window */
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent overlay */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #34A853; /* Google Green */
+    width: 80%;
+    border-radius: 10px;
+}
+
+.close {
+    color: #EA4335; /* Google Red */
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #C62828; /* Darker red */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Button Styles */
+
+button {
+    background-color: #4285F4; /* Google Blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357AE8; /* Darker blue */
+}
+
+/* Footer Section (Optional) */
+footer {
+    background-color: #4285F4; /* Google Blue */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+

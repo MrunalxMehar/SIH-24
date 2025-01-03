@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>File Scanning Dashboard</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#all-files">All Files</a></li>
+			<li><a href="#infected-files">Infected Files</a></li>
+			<li><a href="#schedule-scan">Schedule Scan</a></li>
+			<li><a href="#manage-av">Manage AV'S</a></li>
+			<li><a href="#settings">Settings</a></li>
+		</ul>
+	</nav>
+	<div class="dashboard">
+		<h1>File Scanning Dashboard</h1>
+		<div class="recent-scans">
+			<!-- <h2>Recently Scanned Files</h2> -->
+			<table>
+				<thead>
+					<tr>
+						<!-- <th>File Name</th>
+						<th>File Type/Extension</th>
+						<th>Scanned Time and Date</th>
+						<th>Final Result</th> -->
+					</tr>
+				</thead>
+				<tbody id="recent-scans-table">
+					<!-- Recently scanned files will be displayed here -->
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
